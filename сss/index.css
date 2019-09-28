@@ -1,0 +1,32 @@
+body{
+    margin: auto;
+}
+nav{
+    margin-bottom:-50px; 
+    z-index: 1;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: auto; */
+
+    background-color:yellowgreen;
+}
+nav ul li{
+    padding: 5px;
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration: none;
+    color:white;
+}
+nav li a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+.d-block {
+    height: 400px;
+}
