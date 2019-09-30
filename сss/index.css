@@ -19,12 +19,21 @@ color: white;
 .navbar-toggler-icon{
 color: aqua;
 }
+.btn{
+    color: white;
+}
 .display-4{
+
+}
+.title{
     position: absolute;
     z-index: 2;
-    margin: 200px;
-    /* text-align: center; */
-    color: black;
+    color:white;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 .d-block {
     height: 500px;
